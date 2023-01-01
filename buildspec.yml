@@ -18,8 +18,8 @@ phases:
       - echo Running Tests...
       - npm test
       # build
-      -echo Running Build...
-      -npm run build
+      - echo Running Build...
+      - npm run build
 
 artifacts:
   files:
