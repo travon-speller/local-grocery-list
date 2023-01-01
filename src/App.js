@@ -1,25 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Section from './Components/Section';
+import Row from './Components/Layout/Row';
+import Column from './Components/Layout/Column';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends React.Component {
+  static propTypes = {
+    list: PropTypes.array.isRequired
+  };
 
-export default App;
+  render() {
+    const { list } = this.props;
+    return (
+      <div className="App">
+        <Header />
+        <>
+          <Row>
+            {list?.map((grocery) => (
+              <Column key={grocery.sectionHeader}>
+                <Section sectionHeader={grocery.sectionHeader} items={grocery.items} />
+              </Column>
+            ))}
+          </Row>
+        </>
+      </div>
+    );
+  }
+};
+
+export default connect((state) => {
+  return {
+    list: state.list
+  };
+})(App);

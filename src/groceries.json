@@ -1,0 +1,200 @@
+[
+  {
+    "sectionHeader": "Dairy",
+    "items": [
+      "Eggs",
+      "Milk",
+      "Yogurt",
+      "Butter",
+      "Cheese",
+      "Sour Cream"
+    ]
+  },
+  {
+    "sectionHeader": "Produce",
+    "items": [
+      "Broccoli",
+      "Carrots",
+      "Cauliflower",
+      "Celery",
+      "Cucumbers",
+      "Garlic",
+      "Lettuce /Cabbage",
+      "Mushrooms",
+      "Onions",
+      "Peppers",
+      "Potatoes",
+      "Salad",
+      "Sweet Potatoes",
+      "Tomatoes"
+    ]
+  },
+  {
+    "sectionHeader": "Sauces",
+    "items": [
+      "BBQ Sauce",
+      "Jelly",
+      "Ketchup",
+      "Mayo",
+      "Mustard",
+      "Peanut Butter",
+      "Pickles/Relish",
+      "Salad Dressing",
+      "Sriracha",
+      "Syrup",
+      "Soy Sauce",
+      "Hot Sauce"
+    ]
+  },
+  {
+    "sectionHeader": "Baking/Spices",
+    "items": [
+      "Vegetable Oil",
+      "Olive Oil",
+      "Flour",
+      "Sugar/Brown Sugar",
+      "Salt/Pepper",
+      "Smack Ya Momma",
+      "Onion Powder",
+      "Garlic Powder",
+      "Paprika",
+      "Sazon",
+      "Season All",
+      "Old Bay",
+      "Seafood Salad Seasoning",
+      "Lemon Pepper",
+      "Chili Powder",
+      "Cayenne Pepper"
+    ]
+  },
+  {
+    "sectionHeader": "Canned Goods",
+    "items": [
+      "Green Beans",
+      "Collard Greens",
+      "Corn",
+      "Tuna",
+      "Sardines",
+      "Tomato Paste",
+      "Diced Tomatoes",
+      "Soup/Broth",
+      "Pickles"
+    ]
+  },
+  {
+    "sectionHeader": "Fruits",
+    "items": [
+      "Strawberry",
+      "Grapes",
+      "Grapefruits",
+      "Nectarines",
+      "Pineapples",
+      "Oranges",
+      "Bananas",
+      "Apples",
+      "Peaches",
+      "Mango",
+      "Kiwi",
+      "Watermelon"
+    ]
+  },
+  {
+    "sectionHeader": "Meat",
+    "items": [
+      "Chicken",
+      "Ground Beef",
+      "Steak",
+      "Porkchop",
+      "Bacon",
+      "Sausage",
+      "Lunch Meat",
+      "Fish",
+      "Shrimp",
+      "Ribs",
+      "Crab Meat"
+    ]
+  },
+  {
+    "sectionHeader": "Frozen",
+    "items": [
+      "Ice Cream",
+      "Hot Pockets",
+      "Beef Patties",
+      "French Toast Sticks",
+      "Fruit",
+      "Chicken Patties",
+      "French Fries",
+      "Brussel Sprouts",
+      "Broccoli",
+      "Corn",
+      "Breakfast Sandwhiches",
+      "Pizza",
+      "Garlic Bread",
+      "Meatballs"
+    ]
+  },
+  {
+    "sectionHeader": "Bread/ Grains",
+    "items": [
+      "Bread",
+      "Bagels",
+      "Rice",
+      "Elbow Noodles",
+      "Spaghetti",
+      "Fettucini",
+      "Cereal",
+      "Tortillas",
+      "Grits",
+      "Biscuits",
+      "Noodles"
+    ]
+  },
+  {
+    "sectionHeader": "Bevs",
+    "items": [
+      "Nakeds",
+      "Cranberry Juice",
+      "Sprite",
+      "Lemon Juice",
+      "Wine",
+      "Seltzers",
+      "Gatorade /Powerade"
+    ]
+  },
+  {
+    "sectionHeader": "Crib",
+    "items": [
+      "Dove Soap",
+      "Razors",
+      "Pads",
+      "Tampons",
+      "Azo",
+      "Pamprin",
+      "B-12",
+      "Excedrin/ Tylenol/Ibuprofen",
+      "Sleeping Pills",
+      "Dish soap",
+      "Toilet Paper",
+      "Paper Towels",
+      "Plastic Silverware",
+      "Paper Plates/Cups",
+      "Laundry Detergent",
+      "Dryer Sheets",
+      "Trash Bags",
+      "Aluminum Foil",
+      "Bleach",
+      "Fabuloso",
+      "Lysol Spray & Wipes",
+      "Candles",
+      "Toothpaste",
+      "Deodarant",
+      "Lube",
+      "Face Cleanser",
+      "Epsom Salt",
+      "Light Bulbs",
+      "Batteries",
+      "Swiffer Pads",
+      "Lotion"
+    ]
+  }
+]
