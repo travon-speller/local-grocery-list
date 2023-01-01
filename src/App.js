@@ -29,7 +29,7 @@ class App extends React.Component {
       </div>
     );
   }
-};
+}
 
 export default connect((state) => {
   return {

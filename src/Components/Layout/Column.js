@@ -1,9 +1,16 @@
-import ColumnStyles from './Column.css';
+import React from 'react';
+import './Column.css';
+import PropTypes from 'prop-types';
 
-export default ({ children, className, style }) => {
-  return (
-    <div className={className + ' column'} style={{ ...style, display: 'flex', flexDirection: 'column' }}>
-      {children}
-    </div>
-  );
-};
+class Column extends React.Component {
+  static propTypes = {
+    children: PropTypes.object
+  };
+
+  render() {
+    const { children } = this.props;
+    return <div className={'column'}> {children} </div>;
+  }
+}
+
+export default Column;

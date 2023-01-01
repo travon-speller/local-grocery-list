@@ -5,6 +5,8 @@
   width: 100%;
   max-width: calc(32% - 8px);
   border-right-style: dashed;
+  display: 'flex';
+  flex-direction: 'column';
 }
 
 .column:nth-child(3n), .column:last-child {

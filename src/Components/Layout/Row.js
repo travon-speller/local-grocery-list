@@ -1,9 +1,16 @@
-import RowStyles from './Row.css';
+import './Row.css';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default ({ children, className, style }) => {
-  return (
-    <div className={className + ' row'} style={{ ...style, display: 'flex', flexDirection: 'row' }}>
-      {children}
-    </div>
-  );
-};
+class Row extends React.Component {
+  static propTypes = {
+    children: PropTypes.array
+  };
+
+  render() {
+    const { children } = this.props;
+    return <div className={'row'}>{children}</div>;
+  }
+}
+
+export default Row;

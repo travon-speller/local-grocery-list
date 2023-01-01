@@ -1,10 +1,11 @@
-import CheckBoxStyles from './CheckBox.css';
+import './CheckBox.css';
 import React from 'react';
 import { CHECKBOX_STATES } from '../../redux/constants/checkboxConstants';
 import { updateList } from '../../redux/actions/listActions';
 import { useDispatch } from 'react-redux';
 
-const CheckBox = ({ label, value }) => {
+// eslint-disable-next-line react/prop-types
+const CheckBox = ({ label, value, disabled }) => {
   const checkboxRef = React.useRef();
   const dispatch = useDispatch();
   const [checked, setChecked] = React.useState(value || CHECKBOX_STATES.Empty);
@@ -23,6 +24,7 @@ const CheckBox = ({ label, value }) => {
   }, [checked]);
 
   const onChange = async () => {
+    if (disabled) return false;
     let updatedChecked;
 
     if (checked === CHECKBOX_STATES.Checked) {
@@ -47,7 +49,10 @@ const CheckBox = ({ label, value }) => {
         checked={checked === CHECKBOX_STATES.Checked}
         onChange={onChange}
       />
-      <label className="" htmlFor={label}>
+      <label
+        className={checked === CHECKBOX_STATES.Checked || checked === CHECKBOX_STATES.Indeterminate ? 'checked' : ''}
+        htmlFor={label}
+      >
         {label}
       </label>
     </div>

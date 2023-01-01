@@ -8,9 +8,9 @@ class Header extends React.PureComponent {
       <h1>Grocery List</h1>
       <div style={{ textAlign: 'left', borderStyle: 'dashed', margin: 'auto', width: '50%' }}>
         <h3>Key:</h3>
-        <CheckBox label={'Need To Grab'} />
-        <CheckBox label={'Already Have At Home'} value={CHECKBOX_STATES.Indeterminate} />
-        <CheckBox label={'In The Cart'} value={CHECKBOX_STATES.Checked} />
+        <CheckBox label={'Need To Grab'} disabled />
+        <CheckBox label={'Already Have At Home'} value={CHECKBOX_STATES.Indeterminate} disabled />
+        <CheckBox label={'In The Cart'} value={CHECKBOX_STATES.Checked} disabled />
       </div>
     </>
   );
