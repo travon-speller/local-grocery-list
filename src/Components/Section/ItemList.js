@@ -14,7 +14,7 @@ class ItemList extends React.PureComponent {
       <>
         <ListGroup as="dl">
           {this.props.items?.map((item) => (
-            <ListGroup.Item key={item.name} as="dt" className={`itemList`}>
+            <ListGroup.Item key={item.name} as="dt" className={'itemList'}>
               <CheckBox label={item.name} value={item.status} />
             </ListGroup.Item>
           ))}
