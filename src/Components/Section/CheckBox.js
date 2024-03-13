@@ -40,7 +40,7 @@ const CheckBox = ({ label, value, disabled }) => {
   };
 
   return (
-    <div className="">
+    <label className="form-label">
       <input
         type="checkbox"
         ref={checkboxRef}
@@ -49,13 +49,13 @@ const CheckBox = ({ label, value, disabled }) => {
         checked={checked === CHECKBOX_STATES.Checked}
         onChange={onChange}
       />
-      <label
+      <span
         className={checked === CHECKBOX_STATES.Checked || checked === CHECKBOX_STATES.Indeterminate ? 'checked' : ''}
         htmlFor={label}
       >
         {label}
-      </label>
-    </div>
+      </span>
+    </label>
   );
 };
 

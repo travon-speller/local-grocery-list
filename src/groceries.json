@@ -11,6 +11,32 @@
     ]
   },
   {
+    "sectionHeader": "Canned Goods",
+    "items": [
+      "Green Beans",
+      "Collard Greens",
+      "Corn",
+      "Tuna",
+      "Sardines",
+      "Tomato Paste",
+      "Diced Tomatoes",
+      "Soup/Broth",
+      "Pickles"
+    ]
+  },
+  {
+    "sectionHeader": "Bevs",
+    "items": [
+      "Nakeds",
+      "Cranberry Juice",
+      "Sprite",
+      "Lemon Juice",
+      "Wine",
+      "Seltzers",
+      "Gatorade /Powerade"
+    ]
+  },
+  {
     "sectionHeader": "Produce",
     "items": [
       "Broccoli",
@@ -30,20 +56,22 @@
     ]
   },
   {
-    "sectionHeader": "Sauces",
+    "sectionHeader": "Frozen",
     "items": [
-      "BBQ Sauce",
-      "Jelly",
-      "Ketchup",
-      "Mayo",
-      "Mustard",
-      "Peanut Butter",
-      "Pickles/Relish",
-      "Salad Dressing",
-      "Sriracha",
-      "Syrup",
-      "Soy Sauce",
-      "Hot Sauce"
+      "Ice Cream",
+      "Hot Pockets",
+      "Beef Patties",
+      "French Toast Sticks",
+      "Fruit",
+      "Chicken Patties",
+      "French Fries",
+      "Brussel Sprouts",
+      "Broccoli",
+      "Corn",
+      "Breakfast Sandwhiches",
+      "Pizza",
+      "Garlic Bread",
+      "Meatballs"
     ]
   },
   {
@@ -67,20 +95,7 @@
       "Cayenne Pepper"
     ]
   },
-  {
-    "sectionHeader": "Canned Goods",
-    "items": [
-      "Green Beans",
-      "Collard Greens",
-      "Corn",
-      "Tuna",
-      "Sardines",
-      "Tomato Paste",
-      "Diced Tomatoes",
-      "Soup/Broth",
-      "Pickles"
-    ]
-  },
+
   {
     "sectionHeader": "Fruits",
     "items": [
@@ -115,22 +130,20 @@
     ]
   },
   {
-    "sectionHeader": "Frozen",
+    "sectionHeader": "Sauces",
     "items": [
-      "Ice Cream",
-      "Hot Pockets",
-      "Beef Patties",
-      "French Toast Sticks",
-      "Fruit",
-      "Chicken Patties",
-      "French Fries",
-      "Brussel Sprouts",
-      "Broccoli",
-      "Corn",
-      "Breakfast Sandwhiches",
-      "Pizza",
-      "Garlic Bread",
-      "Meatballs"
+      "BBQ Sauce",
+      "Jelly",
+      "Ketchup",
+      "Mayo",
+      "Mustard",
+      "Peanut Butter",
+      "Pickles/Relish",
+      "Salad Dressing",
+      "Sriracha",
+      "Syrup",
+      "Soy Sauce",
+      "Hot Sauce"
     ]
   },
   {
@@ -147,18 +160,6 @@
       "Grits",
       "Biscuits",
       "Noodles"
-    ]
-  },
-  {
-    "sectionHeader": "Bevs",
-    "items": [
-      "Nakeds",
-      "Cranberry Juice",
-      "Sprite",
-      "Lemon Juice",
-      "Wine",
-      "Seltzers",
-      "Gatorade /Powerade"
     ]
   },
   {
