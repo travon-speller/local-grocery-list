@@ -7,52 +7,37 @@
       "Yogurt",
       "Butter",
       "Cheese",
-      "Sour Cream"
+      "Sour Cream",
+      "Half & Half"
     ]
   },
   {
-    "sectionHeader": "Canned Goods",
+    "sectionHeader": "Bevs",
+    "items": [
+      "Water",
+      "Cranberry Juice",
+      "Lemon Juice",
+      "Soda",
+      "Wine",
+      "Seltzers",
+      "Gatorade"
+    ]
+  },
+  {
+    "sectionHeader": "Can Goods",
     "items": [
       "Green Beans",
+      "Kidney Beans",
       "Collard Greens",
       "Corn",
       "Tuna",
       "Sardines",
       "Tomato Paste",
       "Diced Tomatoes",
-      "Soup/Broth",
-      "Pickles"
-    ]
-  },
-  {
-    "sectionHeader": "Bevs",
-    "items": [
-      "Nakeds",
-      "Cranberry Juice",
-      "Sprite",
-      "Lemon Juice",
-      "Wine",
-      "Seltzers",
-      "Gatorade /Powerade"
-    ]
-  },
-  {
-    "sectionHeader": "Produce",
-    "items": [
-      "Broccoli",
-      "Carrots",
-      "Cauliflower",
-      "Celery",
-      "Cucumbers",
-      "Garlic",
-      "Lettuce /Cabbage",
-      "Mushrooms",
-      "Onions",
-      "Peppers",
-      "Potatoes",
-      "Salad",
-      "Sweet Potatoes",
-      "Tomatoes"
+      "Soup",
+      "Broth",
+      "Pickles",
+      "Condensed Milk"
     ]
   },
   {
@@ -60,18 +45,38 @@
     "items": [
       "Ice Cream",
       "Hot Pockets",
-      "Beef Patties",
-      "French Toast Sticks",
+      "Veggies",
+      "French Toast",
       "Fruit",
       "Chicken Patties",
       "French Fries",
-      "Brussel Sprouts",
-      "Broccoli",
-      "Corn",
-      "Breakfast Sandwhiches",
+      "Breakfast Sandy",
       "Pizza",
       "Garlic Bread",
-      "Meatballs"
+      "Meatballs",
+      "Taquitos"
+    ]
+  },
+  {
+    "sectionHeader": "Produce",
+    "items": [
+      "Broccoli",
+      "Carrots",
+      "Celery",
+      "Cucumbers",
+      "Garlic",
+      "Lettuce",
+      "Cabbage",
+      "Mushrooms",
+      "Onions",
+      "Peppers",
+      "Potatoes",
+      "Salad",
+      "Sweet Potatoes",
+      "Tomatoes",
+      "Parsley",
+      "Bean sprouts",
+      "Spinach"
     ]
   },
   {
@@ -80,7 +85,7 @@
       "Vegetable Oil",
       "Olive Oil",
       "Flour",
-      "Sugar/Brown Sugar",
+      "Sugar",
       "Salt/Pepper",
       "Smack Ya Momma",
       "Onion Powder",
@@ -89,13 +94,13 @@
       "Sazon",
       "Season All",
       "Old Bay",
-      "Seafood Salad Seasoning",
+      "Seafood Salad",
       "Lemon Pepper",
       "Chili Powder",
-      "Cayenne Pepper"
+      "Cayenne Pepper",
+      "Baking Powder"
     ]
   },
-
   {
     "sectionHeader": "Fruits",
     "items": [
@@ -111,6 +116,23 @@
       "Mango",
       "Kiwi",
       "Watermelon"
+    ]
+  },
+  {
+    "sectionHeader": "Sauces",
+    "items": [
+      "BBQ Sauce",
+      "Jelly",
+      "Ketchup",
+      "Mayo",
+      "Mustard",
+      "Peanut Butter",
+      "Relish",
+      "Salad Dressing",
+      "Sriracha",
+      "Syrup",
+      "Soy Sauce",
+      "Hot Sauce"
     ]
   },
   {
@@ -130,24 +152,7 @@
     ]
   },
   {
-    "sectionHeader": "Sauces",
-    "items": [
-      "BBQ Sauce",
-      "Jelly",
-      "Ketchup",
-      "Mayo",
-      "Mustard",
-      "Peanut Butter",
-      "Pickles/Relish",
-      "Salad Dressing",
-      "Sriracha",
-      "Syrup",
-      "Soy Sauce",
-      "Hot Sauce"
-    ]
-  },
-  {
-    "sectionHeader": "Bread/ Grains",
+    "sectionHeader": "Bread/Grains",
     "items": [
       "Bread",
       "Bagels",
@@ -163,39 +168,45 @@
     ]
   },
   {
-    "sectionHeader": "Crib",
+    "sectionHeader": "Hygiene",
     "items": [
       "Dove Soap",
+      "Body Oil",
       "Razors",
       "Pads",
       "Tampons",
       "Azo",
       "Pamprin",
       "B-12",
-      "Excedrin/ Tylenol/Ibuprofen",
+      "Pain Meds",
       "Sleeping Pills",
-      "Dish soap",
-      "Toilet Paper",
-      "Paper Towels",
-      "Plastic Silverware",
-      "Paper Plates/Cups",
-      "Laundry Detergent",
-      "Dryer Sheets",
-      "Trash Bags",
-      "Aluminum Foil",
-      "Bleach",
-      "Fabuloso",
-      "Lysol Spray & Wipes",
-      "Candles",
       "Toothpaste",
       "Deodarant",
       "Lube",
       "Face Cleanser",
       "Epsom Salt",
+      "Lotion"
+    ]
+  },
+  {
+    "sectionHeader": "Crib",
+    "items": [
+      "Dish soap",
+      "Toilet Paper",
+      "Paper Towels",
+      "Plastic Silverware",
+      "Paper Plates/Cups",
+      "Tide Pods",
+      "Dryer Sheets",
+      "Trash Bags",
+      "Aluminum Foil",
+      "Bleach",
+      "Fabuloso",
+      "Lysol Spray/Wipes",
+      "Candles",
       "Light Bulbs",
       "Batteries",
-      "Swiffer Pads",
-      "Lotion"
+      "Swiffer Pads"
     ]
   }
 ]

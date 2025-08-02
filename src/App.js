@@ -31,7 +31,7 @@ class App extends React.Component {
               <Row xs={2} md={3} lg={3}>
                 {list?.map((grocery) => (
                   // eslint-disable-next-line react/jsx-key
-                  <Card style={{}}>
+                  <Card key={grocery.sectionHeader} style={{}}>
                     <Card.Header as="h3">{grocery.sectionHeader}</Card.Header>
                     <ItemList items={grocery.items} />
                   </Card>
